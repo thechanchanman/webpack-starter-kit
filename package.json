@@ -1,0 +1,29 @@
+{
+  "name": "webpack-starter-kit",
+  "version": "0.0.1",
+  "description": "Starter kit for my web sites/apps, using ES6, Babel, SASS & Autoprefixer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yiannis K.",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.22.0",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.0",
+    "postcss-loader": "^1.3.3",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js -p",
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --progress --colors --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
